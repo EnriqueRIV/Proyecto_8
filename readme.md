@@ -1,0 +1,4 @@
+#PROYECTO 8
+
+Se presenta el proyecto 8, el cual muestra el manejo de Node, Express, MongoDB, JS, autenticación utilizando BCRYP y JWT y manejo de ficheros, se creó el servidor, DDBB, conexión entre ambos y CRUDs correspondientes, las rutas están controladas con los middlewares creados de autenticación, rol Admin cuando se vio conveniente y carga de ficheros.
+El concepto resumido es: el administrador es el único que puede eliminar documentos de todas las colecciones, es el que se encarga enteramente de la colección Consolas, el usuario que se registre puede actualizar los datos de usuario, loguearse, crear y actualizar juegos, cualquiera puede ver juegos y consolas. La carga y borrado de ficheros, sea en creación, actualización o borrado de usuario, juego o consola se realiza por medio de la conexión a cloudinary creando, sustituyendo y/o eliminando las imagenes.
